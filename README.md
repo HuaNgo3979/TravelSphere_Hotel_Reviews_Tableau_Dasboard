@@ -25,14 +25,13 @@ TravelSphere needed a way to move beyond gut-feel hotel selection and understand
 TravelSphere-Hotel-Reviews-BI-Dashboard/
 ├── README.md
 ├── docs/
-│   ├── ASM2_Real-World_Dashboard_HuaQuocThinhNgo_s3863887.docx   (full written report)
-│   └── ASM2_Real-World_Dashboard_HuaQuocThinhNgo_s3863887.pdf    (final submitted PDF)
+│   └── ASM2_Real-World_Dashboard_HuaQuocThinhNgo_s3863887.pdf             (final submitted PDF)
 ├── tableau/
-│   ├── ASM2_Real-World_Dashboard_HuaQuocThinhNgo_s3863887.twbx   (packaged workbook — open directly in Tableau Desktop)
-│   ├── ASM2_Dash_Hotel_Reviews.twb                               (lightweight workbook, no embedded data extract)
-│   └── ASM2_Real-World_Dashboard.png                             (dashboard preview screenshot)
+│   ├── ASM2_Real-World_Dashboard_HuaQuocThinhNgo_s3863887.twbx            (packaged workbook — open directly in Tableau Desktop)
+│   └──ASM2_Dash_Hotel_Reviews.twb                                         (lightweight workbook, no embedded data extract)
 └── data-prep/
-    └── Cleaned_2017_Hotel_Reviews.tfl                            (Tableau Prep Builder flow — cleaning steps/recipe)
+    ├── Tableau Prep Builder Workflow for Hotel_Reviews data preparation   (Sceenshot of data preparation model)
+    └── Cleaned_2017_Hotel_Reviews.tfl                                     (Tableau Prep Builder flow — cleaning steps/recipe)
 ```
 
 > **Note on data files:** The raw and intermediate hotel review CSVs (up to ~230MB each, including the AI-enhanced text-analysis exports) are excluded from this repository — they exceed GitHub's file size limits and aren't needed to review the deliverable. The source data is a public 2017 hotel reviews dataset (Hotel_Address, Review_Date, Reviewer_Nationality, Positive/Negative_Review, Reviewer_Score, lat/lng, consistent with the well-known *"515K Hotel Reviews Data in Europe"* dataset). The `.tfl` flow file documents every cleaning step so the pipeline is fully reproducible against that source data. If you need the packaged flow with embedded data, ask — it can be shared separately (e.g. via Drive) or added via Git LFS.
