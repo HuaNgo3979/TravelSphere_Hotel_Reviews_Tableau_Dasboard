@@ -1,6 +1,6 @@
 # TravelSphere — Hotel Reviews BI Dashboard
 
-Individual assignment for **Modern Business Intelligence**, RMIT Melbourne (MBIT). An end-to-end BI solution — data cleaning, AI-assisted text analysis, and an interactive Tableau dashboard suite — built for **TravelSphere**, a fictional luxury travel agency, to help its Head of Customer Experience refine its European partner hotel portfolio.
+Individual assignment for **Modern Business Intelligence**, RMIT Melbourne (MBIT). A BI solution started from data cleaning and AI-assisted text analysis to an interactive Tableau dashboard suite, built for **TravelSphere**, a fictional luxury travel agency, to help its Head of Customer Experience refine its European partner hotel portfolio.
 
 **Author:** Ngo Hua Quoc Thinh (s3863887)
 
