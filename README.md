@@ -39,7 +39,7 @@ TravelSphere-Hotel-Reviews-BI-Dashboard/
 
 ---
 
-## 3. Data Cleaning & Processing (`data-prep/`)
+## 3. Data Cleaning & Processing ([`data-prep/`](TravelSphere-Hotel-Reviews-BI-Dashboard/data-prep))
 
 Built in **Tableau Prep Builder**, in two stages:
 
