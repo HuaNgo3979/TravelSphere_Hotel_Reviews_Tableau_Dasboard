@@ -58,7 +58,7 @@ Built in **Tableau Prep Builder**, in two stages:
 
 ---
 
-## 4. The Dashboards (`tableau/`)
+## 4. The Dashboards ([`tableau/`](TravelSphere-Hotel-Reviews-BI-Dashboard/tableau))
 
 Four linked, interactive dashboards with a consistent executive layout (KPI cards → diagnostic charts → operational detail), shared filters (city, hotel, month, satisfaction band, minimum review threshold), and a blue/red colour logic (blue = strong performance, red/orange = risk):
 
