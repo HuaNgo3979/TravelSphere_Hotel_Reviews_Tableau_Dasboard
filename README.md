@@ -89,4 +89,4 @@ The dashboard suite turns historical review data into a repeatable decision fram
 - **Read the full report:** [`docs/ASM2_Real-World_Dashboard_HuaQuocThinhNgo_s3863887.pdf`](TravelSphere-Hotel-Reviews-BI-Dashboard/docs/ASM2_Real-World_Dashboard_HuaQuocThinhNgo_s3863887.pdf).
 - **Explore the live dashboard:** [`Tableau Public link`](https://public.tableau.com/app/profile/ngo.hua.quoc.thinh/viz/ASM2_Real-World_Dashboard_HuaQuocThinhNgo_s3863887/GeographicPerformance) *(no software needed)*.
 - **Open in Tableau Desktop:** `tableau/ASM2_Real-World_Dashboard_HuaQuocThinhNgo_s3863887.twbx` (packaged, includes the data extract).
-- **Review the data prep pipeline:** open [`data-prep/Cleaned_2017_Hotel_Reviews.tfl`] in Tableau Prep Builder to see every cleaning step.
+- **Review the data prep pipeline:** open [`data-prep/Cleaned_2017_Hotel_Reviews.tfl`](TravelSphere-Hotel-Reviews-BI-Dashboard/data-prep/Cleaned_2017_Hotel_Reviews.tfl) in Tableau Prep Builder to see every cleaning step.
