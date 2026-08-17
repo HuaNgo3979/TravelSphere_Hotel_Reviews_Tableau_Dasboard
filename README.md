@@ -43,14 +43,14 @@ TravelSphere-Hotel-Reviews-BI-Dashboard/
 
 Built in **Tableau Prep Builder**, in two stages:
 
-**Stage 1 — Initial cleaning**
-- Filtered reviews to the 2017 calendar year
-- Removed duplicate review rows
-- Flagged missing `lat`/`lng` (kept for non-geographic analysis, excluded from maps)
-- Extracted `City` from `Hotel_Address` via a controlled city dictionary (London, Paris, Barcelona, Amsterdam, Milan, Vienna)
-- Derived `Review_Month` / `Review_Month_Number` for chronological seasonality analysis
+**Stage 1: Initial cleaning**
+- Filtered reviews to the 2017 calendar year.
+- Removed duplicate review rows.
+- Flagged missing `lat`/`lng` (kept for non-geographic analysis, excluded from maps).
+- Extracted `City` from `Hotel_Address` via a controlled city dictionary (London, Paris, Barcelona, Amsterdam, Milan, Vienna).
+- Derived `Review_Month` / `Review_Month_Number` for chronological seasonality analysis.
 
-**Stage 2 — AI-assisted text analysis**
+**Stage 2: AI-assisted text analysis**
 - Used ChatGPT to clean review text, standardise neutral placeholder values (e.g. "No Negative", "N/A", blanks) so they weren't misread as sentiment, and generate: sentiment balance/ratio/label, AI-assisted topic tags, satisfaction/dissatisfaction reasons, and responsible-team flags
 - Split, re-unioned, and validated the AI-enhanced output back in Tableau Prep, then exported the final Tableau-ready dataset
 
