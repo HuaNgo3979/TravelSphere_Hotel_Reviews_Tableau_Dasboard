@@ -73,7 +73,7 @@ Four linked, interactive dashboards with a consistent executive layout (KPI card
 
 ---
 
-## 5. Business Use Cases (from the report [`docs`](TravelSphere-Hotel-Reviews-BI-Dashboard/docs))
+## 5. Business Use Cases (from the report [`docs/`](TravelSphere-Hotel-Reviews-BI-Dashboard/docs))
 
 - **Use Case 1 — Barcelona luxury package:** Filtering Dashboard 1 to Barcelona (avg. score 8.56, 100+ reviews) and raising the review threshold surfaces *Avenida Palace* as a strong candidate — but Dashboard 3 shows 44% of its negative sentiment is room-related, flagging a quality-assurance check before booking, while Dashboard 4 confirms July's higher volume brings a slight dip in room satisfaction.
 - **Use Case 2 — Paris vs. Amsterdam for stricter nationality segments:** Dashboard 2 shows reviewers from India, Saudi Arabia, and the UAE rate consistently below average in both cities, but more sharply in Paris. Dashboard 3 traces this to a higher concentration of room/location/facilities complaints in Paris, and Dashboard 4 shows Paris satisfaction stays lower even outside peak season — recommending stricter hotel screening for Paris bookings with these client segments.
